@@ -68,13 +68,13 @@ h1 span {
 }
 
 .portrait-panel {
-  padding-top: 120px;
+  padding-top: 112px;
 }
 
 .portrait {
   display: block;
-  width: 240px;
-  height: 304px;
+  width: 210px;
+  height: 266px;
   object-fit: cover;
   background: #f5f5f5;
 }
@@ -82,8 +82,10 @@ h1 span {
 .icon-links {
   display: flex;
   justify-content: center;
-  gap: 16px;
-  margin-top: 18px;
+  align-items: center;
+  gap: 24px;
+  width: 210px;
+  margin: 20px auto 0;
 }
 
 .icon-links a {
@@ -225,8 +227,10 @@ details p {
   }
 
   .icon-links {
-    justify-content: flex-start;
+    justify-content: center;
     width: 180px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   h1 {
