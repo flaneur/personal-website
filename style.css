@@ -25,15 +25,15 @@ body {
 }
 
 .page {
-  width: min(860px, calc(100% - 42px));
+  width: min(980px, calc(100% - 42px));
   margin: 0 auto;
   padding: 70px 0 46px;
 }
 
 .masthead {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 210px;
-  gap: 54px;
+  grid-template-columns: minmax(0, 1fr) 230px;
+  gap: 86px;
   align-items: start;
   margin-bottom: 54px;
 }
@@ -68,13 +68,13 @@ h1 span {
 }
 
 .portrait-panel {
-  padding-top: 112px;
+  padding-top: 92px;
 }
 
 .portrait {
   display: block;
-  width: 210px;
-  height: 266px;
+  width: 230px;
+  height: 292px;
   object-fit: cover;
   background: #f5f5f5;
 }
@@ -83,8 +83,8 @@ h1 span {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
-  width: 210px;
+  gap: 28px;
+  width: 230px;
   margin: 20px auto 0;
 }
 
@@ -208,7 +208,7 @@ details p {
 
 @media (max-width: 760px) {
   .page {
-    width: min(100% - 30px, 860px);
+    width: min(100% - 30px, 980px);
     padding-top: 42px;
   }
 
@@ -222,13 +222,14 @@ details p {
   }
 
   .portrait {
-    width: 180px;
-    height: 228px;
+    width: 200px;
+    height: 254px;
   }
 
   .icon-links {
     justify-content: center;
-    width: 180px;
+    width: 200px;
+    gap: 24px;
     margin-left: 0;
     margin-right: 0;
   }
